@@ -1,0 +1,27 @@
+{
+  "name": "link-to-count-data-set",
+  "version": "1.0.1",
+  "description": "a link-to count data set",
+  "main": "link-to-count-data-set.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "link",
+    "count",
+    "dataset"
+  ],
+  "author": "fwg",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adf0001/link-to-count-data-set.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adf0001/link-to-count-data-set/issues"
+  },
+  "homepage": "https://github.com/adf0001/link-to-count-data-set#readme"
+}
