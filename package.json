@@ -1,6 +1,6 @@
 {
   "name": "link-to-count-data-set",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a link-to count data set",
   "main": "link-to-count-data-set.js",
   "scripts": {

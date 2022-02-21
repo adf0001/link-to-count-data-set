@@ -2,7 +2,7 @@
 // link-to-count-data-set @ npm, a link-to count data set.
 
 var linkToCountDataset = {
-	data: null,		//map 'from' to 'toItem' {count, to:{to->1}, fromData:{fromData->1}}
+	data: null,		//map 'from' to 'toItem' { from, count, to:{to->1}, fromData:{fromData->1} }
 
 	fromDataCallback: null,		//function(fromData,item)
 
@@ -14,7 +14,7 @@ var linkToCountDataset = {
 	//return toItem
 	add: function (from, to, fromData) {
 		var item = this.data[from];
-		if (!item) item = this.data[from] = { count: 0, to: {}, fromData: {} };
+		if (!item) item = this.data[from] = { from: from, count: 0, to: {}, fromData: {} };
 
 		var newFromData;
 		if (typeof fromData !== "undefined" && !(fromData in item.fromData)) {

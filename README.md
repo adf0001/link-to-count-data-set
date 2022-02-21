@@ -22,8 +22,10 @@ ds.add("a", "b", "a1");
 ds.add("a", "c", "a1");
 ds.add("a", "c", "a2");
 
+//toItem: { from, count, to:{to->1}, fromData:{fromData->1} }
 var expect = {
 	"a": {
+		from: "a",
 		count: 2,
 		to: { "b": 1, "c": 1 },
 		fromData: { "a1": 1, "a2": 1 },
